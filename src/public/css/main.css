@@ -1,0 +1,100 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.main-banner {
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+    max-width: 100%;
+    height: 80vh;
+}
+
+.title-banner {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.paraghap-banner {
+    font-size: 20px;
+    font-weight: 100;
+    color: #eeeeee;
+    font-family: 'Heebo', sans-serif;
+}
+
+.hero-image {
+    width: 100%;
+    height: 60vh;
+}
+
+.btn-new-color {
+    background-color: #FF6484;
+    color: white !important;
+}
+
+.section {
+    background-color: #DEDDE3;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.title-section h1{
+    color: #444053;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    color: #6C63FF !important;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.footer {
+    max-width: 100%;
+    height: 60vh;
+    background-color: #3E68AF;
+}
+
+.text-footer {
+    color: #FFFFFF !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-shopping {
+    max-width: 100%;
+    height: 40vh;
+}
+
+.description-footer {
+    color:  #FFFFFF !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-adroid {
+    max-width: 100%;
+    height: 30vh;
+}
+
+.p-copy {
+    color: #DEDDE3;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.products {
+    background-color: #DEDDE3;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.btn-buy {
+    background-color: #343A40;
+    color: white !important;
+}

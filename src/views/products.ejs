@@ -1,0 +1,100 @@
+<%- include("./partials/main.ejs") %>
+<%- include("./partials/Navbar.ejs") %>
+
+<div class="products">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?cs=srgb&dl=pexels-veeterzy-303383.jpg&fm=jpg" alt="Macbook pro" class="card-img-top img-responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Macbook pro</h5>
+                        <p class="card-text">Es una excelete computadora de 16 de RAM</p>
+
+                        <strong>Precio $920.38 USD</strong>
+
+                        <form action="/checkout" method="POST">
+                            <script
+                              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                              data-key="pk_test_51HWpgHDOMQbBff8NvqJrFk6VrmJBIVI1aJOOu334VCX71l2yZZ7cSg2bB9BQWEHJ08u7BXIbOI9dp5dZOH61ekyC00uXkrDTew"
+                              data-amount="92038"
+                              data-name="Buyers"
+                              data-description="Site for buy online"
+                              data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                              data-locale="auto"
+                              data-currency="usd">
+                            </script>
+                            <script>
+                                document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                            </script>
+
+                            <button type="submit" class="btn btn-buy btn-block mt-2">Comprar</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?cs=srgb&dl=pexels-pixabay-38568.jpg&fm=jpg" alt="Macbook pro" class="card-img-top img-responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Imac pro</h5>
+                        <p class="card-text">Una excelente Imac de 22 pulgadas con 32 de RAM</p>
+
+                        <strong>Precio $1550.66 USD</strong>
+
+                        <form action="/checkout" method="POST">
+                            <script
+                              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                              data-key="pk_test_51HWpgHDOMQbBff8NvqJrFk6VrmJBIVI1aJOOu334VCX71l2yZZ7cSg2bB9BQWEHJ08u7BXIbOI9dp5dZOH61ekyC00uXkrDTew"
+                              data-amount="92038"
+                              data-name="Buyers"
+                              data-description="Site for buy online"
+                              data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                              data-locale="auto"
+                              data-currency="usd">
+                            </script>
+                            <script>
+                                document.getElementsByClassName('stripe-button-el')[1].style.display = 'none';
+                            </script>
+
+                            <button type="submit" class="btn btn-buy btn-block mt-2">Comprar</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/844733/pexels-photo-844733.jpeg?cs=srgb&dl=pexels-samer-daboul-844733.jpg&fm=jpg" alt="Macbook pro" class="card-img-top img-responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop HP</h5>
+                        <p class="card-text">Laptopo HP con excelete memoria de 8 de RAM</p>
+
+                        <strong>Precio $644.35 USD</strong>
+
+                        <form action="/checkout" method="POST">
+                            <script
+                              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                              data-key="pk_test_51HWpgHDOMQbBff8NvqJrFk6VrmJBIVI1aJOOu334VCX71l2yZZ7cSg2bB9BQWEHJ08u7BXIbOI9dp5dZOH61ekyC00uXkrDTew"
+                              data-amount="92038"
+                              data-name="Buyers"
+                              data-description="Site for buy online"
+                              data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                              data-locale="auto"
+                              data-currency="usd">
+                            </script>
+                            <script>
+                                document.getElementsByClassName('stripe-button-el')[2].style.display = 'none';
+                            </script>
+
+                            <button type="submit" class="btn btn-buy btn-block mt-2">Comprar</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("./partials/footer.ejs") %> 
